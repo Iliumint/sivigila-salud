@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ActoresResultados" >
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="5dp"
+         android:orientation="vertical" >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="2dp"
+             android:background="#54C8E5" >
+
+             <TextView
+                 android:id="@+id/ac6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:text="@string/actor1"
+                 android:textAppearance="@style/otroTexto" />
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="2dp"
+             android:background="#70C49B" >
+
+             <TextView
+                 android:id="@+id/ac1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:text="@string/actor2"
+                 android:textAppearance="@style/otroTexto" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="2dp"
+             android:background="#DF7276" >
+
+             <TextView
+                 android:id="@+id/ac2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:text="@string/actor3"
+                 android:textAppearance="@style/otroTexto" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="2dp"
+             android:background="#E09FA1" >
+
+             <TextView
+                 android:id="@+id/ac3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:text="@string/actor4"
+                 android:textAppearance="@style/otroTexto" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="2dp"
+             android:background="#E397C1" >
+
+             <TextView
+                 android:id="@+id/ac4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:text="@string/actor5"
+                 android:textAppearance="@style/otroTexto" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="2dp"
+             android:background="#AAA442" >
+
+             <TextView
+                 android:id="@+id/ac5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:text="@string/actor6"
+                 android:textAppearance="@style/otroTexto" />
+
+         </LinearLayout>
+     </LinearLayout>
+
+     <ImageView
+         android:id="@+id/btnAtras"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_marginBottom="70dp"
+         android:layout_marginTop="10dp"
+         android:src="@drawable/atras"
+         android:visibility="invisible" />
+
+</LinearLayout>

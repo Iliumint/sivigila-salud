@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_shared"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/compartir"
+        />
+    
+    <item
+        android:id="@+id/atras_gen"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/atraspeque2"
+        />
+
+</menu>

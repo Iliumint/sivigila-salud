@@ -1,0 +1,334 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".PublicarInfoBusqueda" >
+
+     <ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="65dp"
+         android:layout_marginLeft="6dp"
+         android:layout_marginRight="6dp"
+         android:layout_marginTop="6dp" >
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_margin="5dp"
+                           android:orientation="vertical" >
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/TextView13"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Nombre de Grupo:"
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicNomGrup"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/TextView11"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Nombre Subgrupo:" 
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicNomSubGrup"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/TextView09"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Nombre Evento:" 
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicNomEven"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/TextView07"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Descripcion Evento:" 
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicDecripEven"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/TextView05"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Casos Sospechosos:"
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicCasSosp"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/TextView03"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Casos Probables:"
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicCasProb"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/ac6"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Casos Confirmados:"
+                                   style="@style/subtitulos" />
+
+                               <TextView
+                                   android:id="@+id/PublicCasConf"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/ac2"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Tiempo de Notificacion:"
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicTimeNotif"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/ac2"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Ficha de Notificacion:" 
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicFichNotif"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/ac2"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Dialog Dif.:" 
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicDialogDiff"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/ac2"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Apoyo Laboratorio:" 
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicApoyoLab"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+                           
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/ac2"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Otro Apoyo:"
+                                   style="@style/subtitulos" />
+
+                               <TextView
+                                   android:id="@+id/PublicOtroApoyo"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/ac2"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Acciones Individuales:"
+                                   style="@style/subtitulos" />
+
+                               <TextView
+                                   android:id="@+id/PublicAccInd"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/ac2"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Acciones Colectivas:" 
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicAccColec"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_margin="5dp"
+                               android:orientation="vertical" >
+
+                               <TextView
+                                   android:id="@+id/ac2"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Link Url:" 
+                                   style="@style/subtitulos"/>
+
+                               <TextView
+                                   android:id="@+id/PublicLinURl"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:textColor="#0E6F84" 
+                                   android:text="..." />
+                           </LinearLayout>
+
+                           <LinearLayout
+                               android:layout_width="wrap_content"
+                               android:layout_height="50dp"
+                               android:orientation="vertical" >
+                           </LinearLayout>
+
+                       </LinearLayout>
+
+                   </ScrollView>
+
+</LinearLayout>

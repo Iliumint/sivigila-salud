@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Colombia SiVigila la Salud Publica</string>
+    <!-- Sivigila la Salud -->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_class__trasmisibles">Enfermedades Transmisibles</string>
+    <string name="title_activity_class__externa">Enfermedades por Causa Externa</string>
+    <string name="title_activity_class__no_trasmisibles">Enfermedades no Transmisibles</string>
+    <string name="strTrasmisibles">Enfermedades Trasmisibles</string>
+    <string name="title_activity_visualizador__informacion">Informacion Disponible</string>
+    <string name="strExternas">Enfermedades por Causas Externas</string>
+    <string name="strNoTrasmi">Enfermedades no Trasmisibles</string>
+    <string name="title_activity_descripcion">Descripcion</string>
+    <string name="title_activity_informacion">Informacion</string>
+    <string name="title_activity_visualizar_modo1">VisualizarModo1</string>
+    <string name="title_activity_directorio">Directorio:</string>
+    <string name="title_activity_listar_resultados">ListarResultados</string>
+    <string name="title_activity_pantalla_principal">PantallaPrincipal</string>
+    <string name="title_activity_generalidades">Generalidades</string>
+    <string name="title_activity_apoyo">Apoyo Diagnostico</string>
+    <string name="title_activity_diagnostico_diferencial">Diagnostico Diferencial</string>
+    <string name="title_activity_acciones_salud">Acciones de Control</string>
+    <string name="title_activity_saludo_inicial">Colombia SiVigila</string>
+    <string name="title_activity_publicar_info_busqueda">Informacion del Evento</string>
+    <string name="title_activity_generalidades_sivigila">...</string>
+    <string name="title_activity_generalidades_cuatro_botones">Generalidades Sivigila</string>
+    <string name="title_activity_result_busqueda_generalidades">ResultBusquedaGeneralidades</string>
+    <string name="descripcionAcercaDe">    “El aplicativo Colombia Si Vigila la Salud Pública, es una iniciativa desarrollada de forma conjunta entre la Dirección de Epidemiologia y Demografía del Ministerio de Salud y Protección Social - MSPS, y el Instituto Nacional de Salud-INS, el cual tiene por objeto poner a disposición del talento humano en salud una herramienta de consulta rápida y ágil que les permita identificar de manera fácil cuales son los eventos que se encuentran bajo vigilancia en salud pública en el país, con el fin fortalecer los conocimientos y actitudes para que exista una adecuada respuesta a los Eventos de Notificación Obligatoria en el marco del Sistema Nacional de Vigilancia en Salud Pública – SIVIGILA.
+ 
+Esta es un primera versión que cuenta con un total de XX eventos,  en este sentido los eventos no contemplados en el presente aplicativo, en la actualidad sus correspondientes protocolos de vigilancia y control de  se encuentran en proceso de elaboración y/o ajuste por parte de las autoridades competentes.
+ 
+Este aplicativo al ser una herramienta flexible, se adapta a las necesidades cambiantes de la vigilancia en salud pública, por lo que permite la actualización de la información en los momentos que se requiera, sea que se introduzcan otros protocolos para vigilar nuevos eventos o que se realicen ajustes los protocolos de vigilancia epidemiológica vigentes”.</string>
+    <string name="parrafo1">El aplicativo Colombia Si Vigila la Salud Pública, es una iniciativa desarrollada de forma conjunta entre la Dirección de Epidemiologia y Demografía del Ministerio de Salud y Protección Social - MSPS, y el Instituto Nacional de Salud-INS, el cual tiene por objeto poner a disposición del talento humano en salud una herramienta de consulta rápida y ágil que les permita identificar de manera fácil cuales son los eventos que se encuentran bajo vigilancia en salud pública en el país, con el fin fortalecer los conocimientos y actitudes para que exista una adecuada respuesta a los Eventos de Notificación Obligatoria en el marco del Sistema Nacional de Vigilancia en Salud Pública – SIVIGILA.</string>
+    <!-- <string name="parrafo2">Esta es un primera versión que cuenta con un total de XX eventos,  en este sentido los eventos no contemplados en el presente aplicativo, en la actualidad sus correspondientes protocolos de vigilancia y control de  se encuentran en proceso de elaboración y/o ajuste por parte de las autoridades competentes.</string> -->
+    <string name="parrafo2">Este aplicativo cuenta con un numero inicial de eventos el cual esta en constante actualización debido a la naturaleza dinámica del sistema sivigila y la aparición de nuevos eventos,  en este sentido los protocolos de vigilancia y control no contemplados en el presente aplicativo, se encuentran en proceso de elaboración y/o ajuste por parte de las autoridades competentes.</string>
+    <string name="parrafo3">Este aplicativo al ser una herramienta flexible, se adapta a las necesidades cambiantes de la vigilancia en salud pública, por lo que permite la actualización de la información en los momentos que se requiera, sea que se introduzcan otros protocolos para vigilar nuevos eventos o que se realicen ajustes los protocolos de vigilancia epidemiológica vigentes”.</string>
+    <string name="title_activity_actores_resultados">Actores y Responsables</string>
+    
+    
+    <string name="actor1">Ministerio de Salud y Protección Social MSPS</string>
+    <string name="actor2">Instituto Nacional de Vigilancia de Medicamentos y Alimentos INVIMA</string>
+    <string name="actor3">Instituto Nacional de Salud INS</string>
+    <string name="actor4">Entidades Administradoras de Planes de Beneficios de Salud</string>
+    <string name="actor5">Unidades Notificadoras y Unidades Primarias Generadoras de Datos</string>
+    <string name="actor6">Entidades Territoriales de Salud ETS</string>
+    
+    
+    <string name="p0">INTRODUCCIÓN A SIVIGILA</string>
+    <string name="p1">El presente aplicativo móvil se desarrolla en el marco del Sistema de Vigilancia en Salud, en lo referido a la dimensión de Vigilancia en Salud Pública en el componente de Vigilancia epidemiológica, con énfasis en las estrategias de notificación de casos predefinidos y vigilancia por búsqueda secundaria de registros administrativos.</string>
+    <string name="p2">A continuación se realiza una breve descripción del Sistema de Vigilancia en Salud Colombiano, el cual esta integrado por 2 dimensiones principales: La Vigilancia en Salud Pública y La Vigilancia Sanitaria.</string>
+    <string name="p3">LA VIGILANCIA EN SALUD PÚBLICA </string>
+    <string name="p4">Esta dimensión contempla 3 componentes: </string>
+    <string name="p5">1. Vigilancia Epidemiológica. Proceso regular y continuo de observación e investigación de las principales características y componentes de la morbimortalidad en una comunidad. Entendida como información para la acción, consiste en el seguimiento y análisis rutinario tanto de la ocurrencia y distribución de las enfermedades y de los determinantes individuales, para su control y la toma oportuna de acciones. Está enfocada hacia las condiciones de salud en dos frentes: Pérdidas (Enfermedad, Discapacidad y muerte) y Determinantes Individuales en salud (Factores biológicos y conductuales).</string>
+    <string name="p6">2. Vigilancia Demográfica. Es un componente de la vigilancia en salud pública que se encarga de analizar aspectos poblacionales que tienen un efecto en los fenómenos de salud de los colectivos. A este respecto, entre los dominios que pueden considerarse se encuentran: a) Estructura y dinámica poblacional. b) Distribución espacial y movilidad. c) Estructura familiar y ciclos vitales y d) Determinantes sociales de la salud.</string>
+    <string name="p7">3. Vigilancia de Servicios de Salud. Es un componente de la vigilancia en salud pública  que realiza monitoreo de atributos (Acceso, Utilización y Calidad) de las intervenciones y servicios de salud de tal manera que sea posible construir y proveer información oportuna sobre los fenómenos de interés para orientar la toma de decisiones que permita mejorar la calidad de los servicios de salud. Involucra el seguimiento a servicios, recursos y políticas en salud.</string>
+    <string name="p8">LA VIGILANCIA SANITARIA</string>
+    <string name="p9">Esta dimensión contempla a su vez 3 componentes: </string>
+    <string name="p10">1. Vigilancia Ambiental. Se encarga de realizar seguimiento permanente  a las condiciones ambientales de origen natural o antrópico, que rodean a los seres humanos tanto en ámbitos internos como externos,  con el fin de identificar oportunamente situaciones o aspectos que generen efectos en la salud de la población. Entre los aspectos del ambiente  que son objeto de vigilancia en este componente se encuentran las condiciones Ambientales de Origen Natural y Condiciones Ambientales de Origen Antrópico.</string>
+    <string name="p11">2. Vigilancia de Tecnologías en Salud. Se encarga de realizar seguimiento permanente  a las condiciones que rodean la cadena de producción de tecnologías en salud, con el fin de identificar oportunamente factores que tengan un impacto positivo o negativo en la salud de la población que los utiliza. Entre los aspectos relacionados con tecnologías en salud que son objeto de vigilancia en este componente se encuentran: a) Calidad, seguridad y uso de los productos farmacéuticos. b) Calidad, seguridad y uso de los dispositivos médicos. c) Calidad, seguridad y uso de los medios diagnósticos. d) Calidad, seguridad y uso de los componentes anatómicos (Sangre, Órganos, Tejidos y Células) y e) Otras tecnologías en salud.</string>
+    <string name="p12">3. Vigilancia de Alimentos y Bebidas. Se encarga de realizar seguimiento permanente  a las condiciones que rodean la cadena de producción y disposición de alimentos y bebidas, con el fin de identificar oportunamente factores que tengan un impacto positivo o negativo en la salud de la población. Entre los aspectos relacionados con alimentos y bebidas que son objeto de vigilancia en este componente se encuentran: a) Calidad de los alimentos y bebidas envasadas en relación a los componentes nutricionales. b) Calidad y contenidos  de las bebidas alcohólicas. c) Inocuidad de los alimentos y d) Calidad del agua de consumo humano.</string>
+    <string name="p13">Para el desarrollo de las dos dimensiones citadas, se despliegan una serie estrategias básicas, las cuales se citan a continuación: </string>
+    <string name="p14">INCLUSIÓN APERTURA DEL APP</string>
+    <string name="p15">INCLUSIÓN APERTURA DEL APP</string>
+    
+    
+    
+
+</resources>
