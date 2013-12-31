@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vigilatusalud_v3"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icono_acceso"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/ListFont" >
+
+        <!-- android:theme="@style/AppTheme" -->
+        <activity
+            android:name="com.vigilatusalud_v3.PantallaPrincipal"
+            android:label="@string/app_name"
+            android:logo="@drawable/nombre"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="clases.MainActivity"
+            android:label="@string/app_name"
+            android:logo="@drawable/nombre"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--  -->
+
+        <activity
+            android:name="clases.Class_Trasmisibles"
+            android:label="@string/title_activity_class__trasmisibles"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="clases.Class_Externa"
+            android:label="@string/title_activity_class__externa"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="clases.Class_NoTrasmisibles"
+            android:label="@string/title_activity_class__no_trasmisibles"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vigilatusalud_v3.Visualizador_Informacion"
+            android:label="@string/title_activity_visualizador__informacion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vigilatusalud_v3.Descripcion"
+            android:label="@string/title_activity_descripcion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vigilatusalud_v3.Informacion"
+            android:label="@string/title_activity_informacion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vigilatusalud_v3.Directorio"
+            android:label="@string/title_activity_directorio"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="clases.ListarResultados"
+            android:label="@string/title_activity_listar_resultados"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="consultas.Generalidades"
+            android:label="@string/title_activity_generalidades"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="consultas.Apoyo"
+            android:label="@string/title_activity_apoyo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="consultas.DiagnosticoDiferencial"
+            android:label="@string/title_activity_diagnostico_diferencial"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="consultas.AccionesSalud"
+            android:label="@string/title_activity_acciones_salud"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vigilatusalud_v3.SaludoInicial"
+            android:label="@string/title_activity_saludo_inicial"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vigilatusalud_v3.PublicarInfoBusqueda"
+            android:label="@string/title_activity_publicar_info_busqueda"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="clases.GeneralidadesSivigila"
+            android:label="@string/title_activity_generalidades_sivigila"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!--
+        Texto Que se puede leer completo sin importar el Weith
+        <TextView
+		 android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem quam, laoreet scelerisque egestas ornare"
+		 android:id="@+id/Text11"
+		 android:layout_width="wrap_content" android:layout_height="fill_parent"
+		 
+		 android:ellipsize="marquee"
+		 android:focusable="true"
+		 android:focusableInTouchMode="true"
+		 android:lines="1"
+		/>
+        -->
+        <activity
+            android:name="com.vigilatusalud_v3.GeneralidadesCuatroBotones"
+            android:label="@string/title_activity_generalidades_cuatro_botones"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vigilatusalud_v3.ResultBusquedaGeneralidades"
+            android:label="@string/title_activity_result_busqueda_generalidades"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vigilatusalud_v3.ActoresResultados"
+            android:label="@string/title_activity_actores_resultados" 
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
